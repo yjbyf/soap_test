@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+				  xmlns:test="http://greglturnquist.com/test">
+	<soapenv:Header/>
+	<soapenv:Body>
+		<test:sendNetworkEventRequest>
+			<test:hostname>router101</test:hostname>
+			<test:severity>1</test:severity>
+			<test:description>Ping success</test:description>
+		</test:sendNetworkEventRequest>
+	</soapenv:Body>
+</soapenv:Envelope>
